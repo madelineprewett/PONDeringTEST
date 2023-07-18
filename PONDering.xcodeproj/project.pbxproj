@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1E19642A670F07004FE9EC /* volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E19632A670F07004FE9EC /* volunteering.swift */; };
+		BD1E19662A6712A1004FE9EC /* parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E19652A6712A1004FE9EC /* parks.swift */; };
+		BD1E19682A6712D0004FE9EC /* beaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E19672A6712D0004FE9EC /* beaches.swift */; };
+		BD1E196A2A671337004FE9EC /* picnics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E19692A671337004FE9EC /* picnics.swift */; };
 		BD7A27132A65F608001E46A5 /* PONDeringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A27122A65F608001E46A5 /* PONDeringApp.swift */; };
 		BD7A27152A65F608001E46A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A27142A65F608001E46A5 /* ContentView.swift */; };
 		BD7A27172A65F609001E46A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7A27162A65F609001E46A5 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1E19632A670F07004FE9EC /* volunteering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteering.swift; sourceTree = "<group>"; };
+		BD1E19652A6712A1004FE9EC /* parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parks.swift; sourceTree = "<group>"; };
+		BD1E19672A6712D0004FE9EC /* beaches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaches.swift; sourceTree = "<group>"; };
+		BD1E19692A671337004FE9EC /* picnics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnics.swift; sourceTree = "<group>"; };
 		BD7A270F2A65F608001E46A5 /* PONDering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PONDering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7A27122A65F608001E46A5 /* PONDeringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PONDeringApp.swift; sourceTree = "<group>"; };
 		BD7A27142A65F608001E46A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				BD7A27122A65F608001E46A5 /* PONDeringApp.swift */,
 				BD7A27142A65F608001E46A5 /* ContentView.swift */,
+				BD1E19672A6712D0004FE9EC /* beaches.swift */,
+				BD1E19632A670F07004FE9EC /* volunteering.swift */,
+				BD1E19652A6712A1004FE9EC /* parks.swift */,
+				BD1E19692A671337004FE9EC /* picnics.swift */,
 				BD7A27162A65F609001E46A5 /* Assets.xcassets */,
 				BD7A27182A65F609001E46A5 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7A27152A65F608001E46A5 /* ContentView.swift in Sources */,
+				BD1E196A2A671337004FE9EC /* picnics.swift in Sources */,
 				BD7A27132A65F608001E46A5 /* PONDeringApp.swift in Sources */,
+				BD1E19682A6712D0004FE9EC /* beaches.swift in Sources */,
+				BD1E19642A670F07004FE9EC /* volunteering.swift in Sources */,
+				BD1E19662A6712A1004FE9EC /* parks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
